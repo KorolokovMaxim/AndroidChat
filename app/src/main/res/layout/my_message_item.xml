@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/bg_corner_left"
+        android:layout_width="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/photoImageVew"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/messageTextView"
+            android:maxWidth="200dp"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:paddingStart="8dp"
+            android:textColor="@android:color/primary_text_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/messageDataTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:paddingStart="8dp"
+            android:text="19:26"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
